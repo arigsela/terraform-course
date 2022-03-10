@@ -1,13 +1,13 @@
 variable "AWS_REGION" {
-  default = "eu-west-1"
+  default = "us-east-1"
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "mykey"
+  default = "mykey3"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
+  default = "mykey3.pub"
 }
 
 variable "INSTANCE_DEVICE_NAME" {
@@ -15,11 +15,11 @@ variable "INSTANCE_DEVICE_NAME" {
 }
 
 variable "JENKINS_VERSION" {
-  default = "2.204.5"
+  default = "2.332.1"
 }
 
 variable "TERRAFORM_VERSION" {
-  default = "0.12.23"
+  default = "1.1.7"
 }
 
 variable "APP_INSTANCE_COUNT" {
